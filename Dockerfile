@@ -1,3 +1,3 @@
-FROM nginxinc/nginx-unprivilieged:stable-alpine
+FROM nginxinc/nginx-unprivileged:stable-alpine
 COPY html /usr/share/nginx/html
 EXPOSE 8080
